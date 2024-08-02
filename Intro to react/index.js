@@ -37,4 +37,7 @@ const navbar = (
     </nav>
 )
 
-ReactDOM.render(nav, document.getElementById('root'))
+ReactDOM.render(navbar, document.getElementById('hoho'))
+ 
+//trying append
+ReactDOM.append(navbar, document.getElementById('hoho'))
